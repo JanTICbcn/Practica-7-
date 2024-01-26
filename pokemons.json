@@ -1,0 +1,84 @@
+{
+  "pokemons": [
+    {
+      "id":"pok1",
+      "nom":"Charizard",
+      "tipus":"Foc",
+      "pes_Kg":90.5,
+      "altura_metres":1.7,
+      "estadistiques": {
+
+                        "velocitat":3,
+                        "fortalessa": 3,
+                        "precisio": 2,
+                        "resistencia": 5,
+                        "salt": 5
+                      },
+      "moviments": [
+        {
+          "nom": "Tall aeri",
+          "descripcio":"Tall aeri dirigit a l'oponent.",
+          "potencia": 75,
+          "contacte": false
+        },
+        {
+          "name": "Quick Attack",
+          "descripció":"La pantalla de fum redueix el nivell de precisio del objectiu.",
+          "potència": 40,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/Charizard.png",
+      "evolucions": [
+        {
+          "id": "pok1",
+          "nivell_a_evolucionar": 16
+        },
+        {
+          "id": "pok1",
+          "nivell_a_evolucionar": 36
+        }
+      ]
+    },
+    {
+      "id":"pok2",
+      "nom":"Pikachu",
+      "tipus":"Electric",
+      "pes_Kg":6,
+      "altura_metres":0.4,
+      "estadistiques": {
+        
+                        "velocitat": 4,
+                        "fortalessa": 4,
+                        "precisio": 4,
+                        "resistencia": 4,
+                        "salt": 4
+      },
+      "moviments": [
+        {
+          "nom": "Cola férrea",
+          "descripcio": "Causa dany y te la provavilitat del 30% de reduir la defensa del objectiu un nivell.",
+          "potencia": 100,
+          "contacte": true
+        },
+        {
+          "nom": "Peto dolç",
+          "descripcio": "Moviment de tipo normal que causa confusio al objectiu.",
+          "potencia": null,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/200px-Pikachu.png",
+      "evolucions": [
+        {
+          "id": "pok2",
+          "nivell_a_evolucionar": "Piedra Trueno"
+        },
+        {
+          "id": "pok2",
+          "nivell_a_evolucionar": "Raichu de Alola"
+        }
+      ]
+    }
+  ]
+}
